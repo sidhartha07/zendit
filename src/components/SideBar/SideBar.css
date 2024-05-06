@@ -1,0 +1,40 @@
+#sidebar .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+#sidebar .wrapper .logo {
+    width: 50px;
+}
+
+#sidebar .items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  margin-right: 20px;
+}
+
+#sidebar {
+  width: 70px;
+  height: 100vh;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  /* position: fixed; */
+}
+
+#sidebar .tab {
+    background-color: #87878b;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: left;
+    border-radius: 0 10px 10px 0;
+    left: 0;
+    padding: 20px;
+}

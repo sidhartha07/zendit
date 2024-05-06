@@ -1,0 +1,30 @@
+#new {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+#new .wrapper {
+  background-color: #f8f8f8;
+  height: 100%;
+}
+
+#new .heading {
+  font-size: 16px;
+  font-weight: 400;
+  color: #263032;
+}
+
+#new .top-section {
+  padding: 40px 16px;
+}
+
+#new .main-body {
+  background-color: #ffffff;
+  margin: 0 20px 0 20px;
+  padding-bottom: 10px;
+  padding: 40px;
+}
+
+#new button {
+    cursor: pointer;
+}

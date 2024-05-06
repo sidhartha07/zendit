@@ -1,0 +1,16 @@
+#header .content .name {
+    font-size: 13px;
+    color: var(--gray-text);
+}
+
+#header .content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: end;
+    padding: 13px 16px;
+}
+/* 
+#header {
+    position: fixed;
+} */

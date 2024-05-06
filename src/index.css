@@ -1,0 +1,14 @@
+:root {
+  --gray-text: #3f434a;
+  --light-green-text: #03c395;
+  --light-red-text: #e24b4b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
